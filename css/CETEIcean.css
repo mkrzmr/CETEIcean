@@ -541,9 +541,6 @@ tei-witness > tei-listwit > tei-witness {
 tei-locus {
   display: none;
 }
-tei-langKnowledge {
-    display: block;
-}
 
 /* m */
 tei-milestone {
