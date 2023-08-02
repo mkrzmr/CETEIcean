@@ -311,6 +311,12 @@ tei-explicit {
 tei-filedesc > tei-extent {
   display: none;
 }
+tei-education {
+  display: block;
+}
+tei-education:before {
+  content: "Education: ";
+}
 /* f */
 tei-figure {
   display: block;
