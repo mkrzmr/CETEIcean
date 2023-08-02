@@ -542,6 +542,10 @@ tei-locus {
   display: none;
 }
 
+tei-langKnowledge {
+    display:block;
+}
+
 /* m */
 tei-milestone {
   display: none;
