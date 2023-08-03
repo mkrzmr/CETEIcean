@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="css/CETEIcean.css">
   <script src="js/CETEI.js"></script>
   <script>  let c = new CETEI();
-  let behaviors = {
-      "teiHeader": null,
+    let behaviors = {
+    "teiHeader": null};
   c.addBehaviors(behaviors);
   c.getHTML5('Template_DH6117.xml', function(data) {
     document.getElementsByTagName("body")[0].appendChild(data);
