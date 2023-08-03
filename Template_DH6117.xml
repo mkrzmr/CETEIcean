@@ -46,8 +46,8 @@
                   <head>Jane Doe</head>
                   <figDesc>Artwork XX by Jane Doe</figDesc>
                </figure>
-               <birth when="2017-01-01">
-                  <placeName type="Birthplace">Birthplace</placeName>
+               <birth>
+                  <placeName type="Birthyear">Born in</placeName>
                </birth>
                <education>
                   <orgName type="Organisation">Name of Institution</orgName></education>
@@ -60,7 +60,7 @@
                <residence type="residence">
                   <placeName ref="home">Place of Residence </placeName>
                </residence>
-               <note xml:id ="b" type = "showme">Here goes some interesting information...</note>
+               <note>Here goes some interesting information... </lb> lets try a link  </note>
             </person>
 
          </listPerson>
