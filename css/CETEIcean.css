@@ -542,7 +542,12 @@ tei-witness > tei-listwit > tei-witness {
 tei-locus {
   display: none;
 }
-
+tei-langknowledge {
+  display: block;
+}
+tei-langknowledge:before {
+  content: "Language used: ";
+}
 /* m */
 tei-milestone {
   display: none;
@@ -564,6 +569,13 @@ tei-node {
 tei-notesstmt {
   display: none;
 }
+tei-nationality {
+  display: block;
+}
+tei-nationality:before {
+  content: "Nationality: ";
+}
+
 /* o */
 tei-ovar {
   font-style: italic;
@@ -575,6 +587,13 @@ tei-origPlace:before {
   font-weight: bold;
   content: "Place of Origin: ";
 }
+tei-occupation {
+  display: block;
+}
+tei-occupationArt:before {
+  content: "Art Syle: ";
+}
+
 
 /* p */
 tei-p {
@@ -692,6 +711,12 @@ tei-row {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
+}
+tei-residence {
+  display: block;
+}
+tei-residence:before {
+  content: "Residence: ";
 }
 
 /* s */
