@@ -49,23 +49,17 @@
                <birth when="2017-01-01">
                   <placeName type="Birthplace">Birthplace</placeName>
                </birth>
-               <lb/>
                <education>
                   <orgName type="Organisation">Name of Institution</orgName></education>
-               <lb/>
                <langKnowledge type="Language">
                   <langKnown tag="en">first language</langKnown>
                </langKnowledge>
-               <lb/>
                <nationality>
                   <placeName type="Nationality">Egypt</placeName></nationality>
-               <lb/>
                <occupation type="Occupation">Subject of a TAPAS Personography template</occupation>
-               <lb/>
                <residence type="residence">
                   <placeName ref="home">Place of Residence </placeName>
                </residence>
-               <lb/>
                <note xml:id ="b" type = "showme">Here goes some interesting information...</note>
             </person>
 
