@@ -573,8 +573,7 @@ tei-nationality {
   display: block;
 }
 tei-nationality:before {
-  content: "Nationality: ";
-  content: "\A";
+  content: "\A Nationality: ";
 }
 
 /* o */
@@ -592,8 +591,7 @@ tei-occupation {
   display: block;
 }
 tei-occupation:before {
-  content: "Art Style: ";
-  content: "\A";
+  content: "\A Art Style: ";
 }
 
 
