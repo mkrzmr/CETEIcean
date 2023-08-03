@@ -805,7 +805,7 @@ tei-source {
   margin-bottom: 0;
 }
 tei-sourcedesc {
-  display: none;
+  display: block;
 }
 tei-space:before {
   font-weight: bold;
