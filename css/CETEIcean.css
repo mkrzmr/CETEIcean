@@ -309,7 +309,7 @@ tei-explicit {
   font-style: italic;
 }
 tei-filedesc > tei-extent {
-  display: none;
+  display: block;
 }
 tei-education {
   display: block;
@@ -617,6 +617,10 @@ tei-person {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
+  font-weight: normal;
+  font-weight: bold !important;
+  font-size: 150%;
+  text-align: center;
 }
 tei-personGrp {
   display: block;
