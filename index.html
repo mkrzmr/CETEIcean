@@ -7,14 +7,15 @@
   <link rel="stylesheet" href="css/CETEIcean.css">
   <script src="js/CETEI.js"></script>
   <script>  let c = new CETEI();
-  c.getHTML5('Template_DH6117.xml', function(data) {
-    document.getElementsByTagName("body")[0].appendChild(data);
-  });
-    let behaviors = {
+        let behaviors = {
       "lb": ["<br>"],
       "teiHeader": null,
       };
   c.addBehaviors(behaviors);
+  c.getHTML5('Template_DH6117.xml', function(data) {
+    document.getElementsByTagName("body")[0].appendChild(data);
+  });
+
   </script>
 </head>
 <body>
