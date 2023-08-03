@@ -37,12 +37,12 @@
             <person xml:id="pers_jane_doe">
                <persName>Jane Doe</persName>
                <figure>
-                  <graphic url="images/placeholder_image.jpg"/>
+                  <graphic url="images/placeholder_image.jpeg"/>
                   <head>Jane Doe</head>
                   <figDesc>A photo of Jane Doe from spring 2016</figDesc>
                </figure>
                <figure>
-                  <graphic url="images/placeholder_image.jpg"/>
+                  <graphic url="images/placeholder_image.jpeg"/>
                   <head>Jane Doe</head>
                   <figDesc>Artwork XX by Jane Doe</figDesc>
                </figure>
