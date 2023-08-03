@@ -60,7 +60,7 @@
                <residence type="residence">
                   <placeName ref="home">Place of Residence </placeName>
                </residence>
-               <note>Here goes some interesting information... <lb/> <link target="https://www.ucc.ie"/>lets try a link  </note>
+               <note>Here goes some interesting information... <lb/> <ref target="https://www.ucc.ie">lets try a link</ref>  </note>
             </person>
             
          </listPerson>
