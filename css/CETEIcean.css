@@ -859,6 +859,7 @@ tei-surplus>*:last-child:after {
 tei-tei {
   display: block;
   padding:50px;
+  border: 15px solid white;
 }
 tei-table {
   display: block;
