@@ -858,6 +858,7 @@ tei-surplus>*:last-child:after {
 /* t */
 tei-tei {
   display: block;
+  padding:50px;
 }
 tei-table {
   display: block;
@@ -881,7 +882,6 @@ tei-teiheader {
   display: block;
   margin-top: 2em;
   margin-bottom: 2em;
-  padding:50px;
 }
 }
 tei-tei > tei-text {
