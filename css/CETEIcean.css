@@ -881,6 +881,8 @@ tei-teiheader {
   display: block;
   margin-top: 2em;
   margin-bottom: 2em;
+  padding:50px;
+}
 }
 tei-tei > tei-text {
   display: block;
