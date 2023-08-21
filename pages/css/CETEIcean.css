@@ -323,6 +323,9 @@ tei-figure {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width:100%;
+  max-width:300px;
+
 }
 /* g */
 tei-gap[data-tei-reason='lost']:before {
@@ -344,10 +347,6 @@ tei-gi:after {
   content: ">";
 }
 
-tei-graphic {
-    width:100%;
-    max-width:300px;
-}
 
 /* h */
 tei-head {
