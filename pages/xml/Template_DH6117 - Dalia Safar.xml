@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<TEI xml:id="DS.202308.001" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mokhtar Zain</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Course of DH6117</publisher>
+            <availability>
+               <ab> Freely available for download and redistribution for educational, non-commercial
+                  use. </ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            
+            <bibl>
+               <title level="a">Sample personography</title>. 
+               <author>Dalia Safar</author>, 
+               <title>Course DH6117, UCC</title>.
+               <publisher>UCC</publisher>
+               <date>2023</date>. </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <!-- repeat '<person></person>' container for each new entry -->
+            <person xml:id="pers_Mokhtar_Zain">
+               <persName>Mokhtar Zain</persName>
+               <figure>
+                  <graphic url="https://mokhtarzain.files.wordpress.com/2022/09/img_1544-2.jpg?w=191"/>
+                  <head>Mokhtar Zain</head>
+                  <figDesc>A photo of Mokhtar Zain celebrating his 35th Birthday in his own way</figDesc>
+               </figure>
+               <figure>
+                  <graphic url="https://mokhtarzain.files.wordpress.com/2023/01/img_3202.png"/>
+                  <head>Mokhtar Zain</head>
+                  <figDesc>Artwork by Mokhtar Zain</figDesc>
+               </figure>
+               <birth>
+                  <placeName type="Birthyear">Born in  Egypt, in 1987</placeName>
+               </birth>
+               <education>
+                  <orgName type="Organisation">Studied Social Work at Helwan University</orgName></education>
+               <langKnowledge type="Language">
+                  <langKnown tag="en">Mother Tongue: Arabic</langKnown>
+               </langKnowledge>
+               <nationality>
+                  <placeName type="Nationality">Egyptian</placeName></nationality>
+               <occupation type="Occupation">Illustrator and Comic Artist - Subject of a TAPAS Personography template</occupation>
+               <residence type="residence">
+                  <placeName ref="home">Egypt, Cairo</placeName>
+               </residence>
+               <bibl>Mokhtar Zain is an Egyptian Illustrator and Comic Artist. He created "Super Bomba" comics, and worked on many children book illustrations and advertising agencies. He also created an Art Podcast "3otl Fani"<ref target="https://mokhtarzain.com/">Mokhtar's Portfolio</ref>  </bibl>
+            </person>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>
