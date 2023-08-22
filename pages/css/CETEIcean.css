@@ -323,15 +323,13 @@ tei-figure {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-}
-/* g */
-tei-graphic {  
   width: 200px;
   height: 300px;
   object-fit: cover;
-    }
+}
+
+/* g */
+
 
 tei-gap[data-tei-reason='lost']:before {
   content:'[';
