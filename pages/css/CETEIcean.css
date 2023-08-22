@@ -150,7 +150,7 @@ tei-biblFull {
 }
 
 tei-bibl:before {
-  content: "/A Birth: ";
+  content: "/A";
   white-space: pre;
 }
 
@@ -322,7 +322,7 @@ tei-education {
   display: block;
 }
 tei-education:before {
-  content: "/A Education: ";
+  content: "\A Education: ";
   white-space: pre;
 }
 /* f */
@@ -562,7 +562,7 @@ tei-langknowledge {
   display: block;
 }
 tei-langknowledge:before {
-  content: "/A Language used: ";
+  content: "\A Language used: ";
   white-space: pre;
 }
 /* m */
@@ -741,7 +741,7 @@ tei-residence {
   display: block;
 }
 tei-residence:before {
-  content: "Residence: ";
+  content: "\A Residence: ";
   white-space: pre;
 }
 
