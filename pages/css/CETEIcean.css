@@ -148,6 +148,12 @@ tei-bibl[data-tei-rend~="block"], bibl[data-tei-rendition~="#block"] {
 tei-biblFull {
   display: block;
 }
+
+tei-bibl:before {
+  content: "/A Birth: ";
+  white-space: pre;
+}
+
 tei-binding {
   display: block;
 }
@@ -170,6 +176,7 @@ tei-birth {
 }
 tei-birth:before {
   content: "Birth: ";
+  white-space: pre;
 }
 /* c */
 tei-cRefPattern {
@@ -315,7 +322,8 @@ tei-education {
   display: block;
 }
 tei-education:before {
-  content: "Education: ";
+  content: "/A Education: ";
+  white-space: pre;
 }
 /* f */
 tei-figure {
@@ -554,7 +562,8 @@ tei-langknowledge {
   display: block;
 }
 tei-langknowledge:before {
-  content: "Language used: ";
+  content: "/A Language used: ";
+  white-space: pre;
 }
 /* m */
 tei-milestone {
@@ -601,6 +610,7 @@ tei-occupation {
 }
 tei-occupation:before {
   content: "\A Art Style: ";
+  white-space: pre;
 }
 
 
@@ -732,6 +742,7 @@ tei-residence {
 }
 tei-residence:before {
   content: "Residence: ";
+  white-space: pre;
 }
 
 /* s */
