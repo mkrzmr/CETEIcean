@@ -582,6 +582,7 @@ tei-nationality {
 }
 tei-nationality:before {
   content: "\A Nationality: ";
+  white-space: pre;
 }
 
 /* o */
