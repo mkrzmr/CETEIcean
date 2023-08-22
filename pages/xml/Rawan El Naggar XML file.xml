@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="template.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- In the above line, change the xml:id to the id of your file: yourinitials.YYYYMM.001 
+        (the 001 can be changed to 002, etc if we are encoding more than one piece from a particular month) -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zeinab Abdel Aziz</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Course of DH6117</publisher>
+            <availability>
+               <ab> Freely available for download and redistribution for educational, non-commercial
+                  use. </ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Born digital: no previous source exists. This document was composed using the following resource as a guide:-->
+            <bibl>
+               <title level="a">Sample personography</title>. 
+               <author>Rawan El Naggar</author>, 
+               <title>Course DH6117, UCC</title>.
+               <publisher>UCC</publisher>
+               <date>2023</date>. </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <!-- repeat '<person></person>' container for each new entry -->
+            <person xml:id="pers_jane_doe">
+               <persName>Zeinab Abdel Aziz</persName>
+               <figure>
+                  <graphic
+                     url="https://images.akhbarelyom.com/images/images/large/2014/10/10/mn5750f8c90084c1412948580.jpg"/>
+                  <head>Zeinab Abdel Aziz</head>
+                  <figDesc>A photo of Dr Zeinab with one of her artworks</figDesc>
+               </figure>
+               <figure>
+                  <graphic
+                     url="https://media2.wataninet.com/2014/10/%D8%B2%D9%8A%D9%86%D8%A8-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2-4.jpg"/>
+                  <head>Zeinab Abdel Aziz</head>
+                  <figDesc>Dr Zeinab simulates nature in her artworks</figDesc>
+               </figure>
+               <birth>
+                  <placeName type="Birthyear">Alexandria</placeName>
+               </birth>
+               <education>
+                  <orgName type="Organisation">Cairo university</orgName></education>
+               <langKnowledge type="Language">
+                  <langKnown tag="en">Arabic</langKnown>
+               </langKnowledge>
+               <nationality>
+                  <placeName type="Nationality">Egyptian</placeName></nationality>
+               <occupation type="Occupation">Professor of French Civilization and French Literature at Cairo University, Author of the latest translation into French of the meanings of the Qur’an, writer and an artist</occupation>
+               <residence type="residence">
+                  <placeName ref="home">Cairo Egypt </placeName>
+               </residence>
+               <bibl>Here goes some interesting information... <ref target="https://www.ucc.ie">lets
+                     try a link</ref>
+               </bibl>
+            </person>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>
