@@ -326,7 +326,7 @@ tei-figure {
 
 }
 tei-figure > tei-graphic >img {
-  width: 300px;
+  width: 500px;
   height: 300px;
   object-fit: scale-down;
 }
@@ -1005,7 +1005,7 @@ body
     padding:50px;
     background-color:#ebebeb;
     font-size:14px;
-    font-family:Verdana;
+    font-family:Ubuntu;
 }
 
 /* layout/header.css */
