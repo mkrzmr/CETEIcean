@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="template.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- In the above line, change the xml:id to the id of your file: yourinitials.YYYYMM.001 
+        (the 001 can be changed to 002, etc if we are encoding more than one piece from a particular month) -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mahmoud Muktar</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Course of DH6117</publisher>
+            <availability>
+               <ab> Freely available for download and redistribution for educational, non-commercial
+                  use. </ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Born digital: no previous source exists. This document was composed using the following resource as a guide:-->
+            <bibl>
+               <title level="a">Sample personography</title>. 
+               <author>Shaza Ahmed</author>, 
+               <title>Course DH6117, UCC</title>.
+               <publisher>UCC</publisher>
+               <date>2023</date>. </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <!-- repeat '<person></person>' container for each new entry -->
+            <person xml:id="pers_jane_doe">
+               <persName>Mahmoud Muktar</persName>
+               <figure>
+                  <graphic url="https://mediaaws.almasryalyoum.com/news/large/2019/06/17/944369_0.jpeg"/>
+                  <head>Mahmoud Muktar</head>
+                  <figDesc>A photo of Mahmoud Muktar from spring 2016</figDesc>
+               </figure>
+               <figure>
+                  <graphic url="https://mediaaws.almasryalyoum.com/news/large/2019/06/17/944370_0.jpeg"></graphic>
+                  <head>Mahmoud Muktar</head>
+                  <figDesc>Artwork Egypt's Awakening by Mahmoud Muktar</figDesc>
+               </figure>
+               <birth>
+                  <placeName type="Birthyear">Egypt</placeName>
+               </birth>
+               <education>
+                  <orgName type="Organisation">Faculty of Engineering</orgName></education>
+               <langKnowledge type="Language">
+                  <langKnown tag="en">Arabic</langKnown>
+               </langKnowledge>
+               <nationality>
+                  <placeName type="Nationality">Egyptian</placeName></nationality>
+               <occupation type="Occupation">Cairo</occupation>
+               <residence type="residence">
+                  <placeName ref="home">Cairo</placeName>
+               </residence>
+               <bibl>Mahmoud Mokhtar was an Egyptian sculptor born in 1891 and died in 1934.
+                  He is considered one of the pioneers of modern Egyptian sculpture.
+                  Mokhtar was known for his use of traditional Egyptian motifs in his work.
+                  Some of his most famous sculptures include "Nahdet Misr" (Egypt's Renaissance) and "Sphinx of Giza".
+                  Mokhtar's work helped to establish a new artistic identity for Egypt.
+                  He remains an important figure in the country's cultural history <ref target="https://www.ucc.ie">lets try a link</ref>  </bibl>
+            </person>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>
