@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="template.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- In the above line, change the xml:id to the id of your file: yourinitials.YYYYMM.001 
+        (the 001 can be changed to 002, etc if we are encoding more than one piece from a particular month) -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Egyptian artists</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Course of DH6117</publisher>
+            <availability>
+               <ab> Freely available for download and redistribution for educational, non-commercial
+                  use. </ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Born digital: no previous source exists. This document was composed using the following resource as a guide:-->
+            <bibl>
+               <title level="a">Sample personography</title>. 
+               <author>Sondos Mahmoud</author>, 
+               <title>Course DH6117, UCC</title>.
+               <publisher>UCC</publisher>
+               <date>2023</date>. </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <!-- repeat '<person></person>' container for each new entry -->
+            <person xml:id="pers_jane_doe">
+               <persName>Deena Mohamed</persName>
+               <figure>
+                  <figure>
+                     <graphic url="../Desktop/deena.PNG"/>
+                  </figure>
+                  <head>Deena Mohamed</head>
+                  <figDesc>A photo of Deena Mohamed holding her last work</figDesc>
+               </figure>
+               <figure>
+                  <graphic url="../Desktop/141.gif"/>
+                  <head>Deena Mohamed</head>
+                  <figDesc>Work sample by Deena Mohamed</figDesc>
+               </figure>
+               <birth>
+                  <placeName type="Birthyear">2000</placeName>
+               </birth>
+               <education>
+                  <orgName type="Organisation">Applied arts</orgName></education>
+               <langKnowledge type="Language">
+                  <langKnown tag="en">Arabic</langKnown>
+               </langKnowledge>
+               <nationality>
+                  <placeName type="Nationality">Egyptian</placeName></nationality>
+               <occupation type="Occupation">Cairo</occupation>
+               <residence type="residence">
+                  <placeName ref="home">Cairo </placeName>
+               </residence>
+               <bibl>In this article, we will explore the work of an Egyptian artist who creates subtle modifications that have a significant impact. 
+                  Deena Mohamed is an Egyptian comics artist, writer, and designer.She first started making comics at the age of eighteen with her semi-satirical semi-sincere webcomic Qahera. After that, she researched the history of Egyptian comics for her undergraduate thesis in graphic design, 
+                  which inspired her to create Shubeik Lubeik, her graphic novel trilogy <ref target="https://www.ucc.ie">lets try a link</ref>  </bibl>
+            </person>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>
