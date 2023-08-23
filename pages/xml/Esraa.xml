@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="template.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- In the above line, change the xml:id to the id of your file: yourinitials.YYYYMM.001 
+        (the 001 can be changed to 002, etc if we are encoding more than one piece from a particular month) -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sami Rafea</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Course of DH6117</publisher>
+                <availability>
+                    <ab> Freely available for download and redistribution for educational, non-commercial
+                        use. </ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- Born digital: no previous source exists. This document was composed using the following resource as a guide:-->
+                <bibl>
+                    <title level="a">Sample personography</title>. 
+                    <author>Esraa Edres</author>, 
+                    <title>Course DH6117, UCC</title>.
+                    <publisher>UCC</publisher>
+                    <date>2023</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <!-- repeat '<person></person>' container for each new entry -->
+                <person xml:id="pers_jane_doe">
+                    <persName>Sami Rafea Mohamed</persName>
+                    <figure>
+                        <graphic url="https://img.youm7.com/ArticleImgs/2019/6/5/207158-61529902_10161932619710074_2017300384644595712_n.jpg"/>
+                        <head>Sami Rafea</head>
+                        <figDesc>A photo of Sami Rafea next to The Unknown Soldier Memorial in Cairo that he designed for A small memorial to those who died in the 1973 war.</figDesc>
+                    </figure>
+                    <figure>
+                        <graphic url="https://img.youm7.com/ArticleImgs/2019/10/5/45389-%D8%AA%D8%B5%D9%88%D9%8A%D8%B1-%D9%85%D8%AD%D9%85%D9%88%D8%AF-%D8%AD%D9%81%D9%86%D8%A7%D9%88%D9%8A-(14).jpg"/>
+                        <head>Sami Rafea</head>
+                        <figDesc>Artwork The Unknown Soldier Memorial by Sami Rafea,The monument is made of concrete and resembles a hollow pyramid, with a height of 25 meters, and a base width of 14.3 meters. The four pillars are 1.9 meters thick, and are inscribed with 71 symbolic names. At the center of the base is a solid basalt cube representing the soldier's tomb.</figDesc>
+                    </figure>
+                    <birth>
+                        <placeName type="Birthyear">Born in:Cairo</placeName>
+                    </birth>
+                    <education>
+                        <orgName type="Organisation">- Diploma from Faculty of Fine Arts - Cairo 1956. 
+                            - Diploma from the High Institute of Art Education - Cairo 1957. 
+                            - Diploma from the Academy of Fine Arts - Venizia - Department of Play Decor 1966. 
+                            - Equation of Ph.D 1977.</orgName></education>
+                    <langKnowledge type="Language">
+                        <langKnown tag="en">first language</langKnown>
+                    </langKnowledge>
+                    <nationality>
+                        <placeName type="Nationality">Egypt</placeName></nationality>
+                    <occupation type="Occupation">Subject of a TAPAS Personography template</occupation>
+                    <residence type="residence">
+                        <placeName ref="home">Place of Residence </placeName>
+                    </residence>
+                    <bibl>Here goes some interesting information... <ref target="https://www.ucc.ie">lets try a link</ref>  </bibl>
+                </person>
+                
+            </listPerson>
+        </body>
+    </text>
+</TEI>
+
