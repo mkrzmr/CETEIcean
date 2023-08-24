@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="template.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- In the above line, change the xml:id to the id of your file: yourinitials.YYYYMM.001 
+        (the 001 can be changed to 002, etc if we are encoding more than one piece from a particular month) -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TAPAS Template for Personographies</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Course of DH6117</publisher>
+            <availability>
+               <ab> Freely available for download and redistribution for educational, non-commercial
+                  use. </ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Born digital: no previous source exists. This document was composed using the following resource as a guide:-->
+            <bibl>
+               <title level="a">Sample personography</title>. 
+               <author>Julia Flanders</author>, 
+               <title>Course DH6117, UCC</title>.
+               <publisher>UCC</publisher>
+               <date>2023</date>. </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <!-- repeat '<person></person>' container for each new entry -->
+            <person xml:id="pers_jane_doe">
+               <persName>Mona Zaki</persName>
+               <figure>
+                  <graphic url="https://media0026.elcinema.com/uploads/_315x420_f8e0a0a36f1a4fe4f8228d827417099979e0694ac3ce3d38b47b381f5c12ac4c.jpg"/>
+                  <head>Mona Zaki</head>
+                  <figDesc>A photo of Mona Zaki from spring 2019</figDesc>
+               </figure>
+               <figure>
+                  <graphic url="https://media0026.elcinema.com/uploads/_320x_70049bcf32588b169bf5047ae833a345211343b8eb9b47bbc1fee2c4f69323a5.jpg"/>
+                  <head>Mona Zaki</head>
+                  <figDesc>Artwork Newton's Cradle by Mona Zaki</figDesc>
+               </figure>
+               <birth>
+                  <placeName type="Birthyear">1976</placeName>
+               </birth>
+               <education>
+                  <orgName type="Organisation">Cairo University</orgName></education>
+               <langKnowledge type="Language">
+                  <langKnown tag="en">Arabic and English</langKnown>
+               </langKnowledge>
+               <nationality>
+                  <placeName type="Nationality">Egypt</placeName></nationality>
+               <occupation type="Occupation">Actress</occupation>
+               <residence type="residence">
+                  <placeName ref="home">Egypt</placeName>
+               </residence>
+               <bibl>Mona Zaki is a leading star in the Middle East, she is known for presenting many works of art with various backgrounds, in addition to presenting works that discuss many different ideas and break taboos such as discussing laws and issues of women's and children's rights. Mona is also known for the many charitable and educational activities that she performs as an ambassador for UNICEF in Egypt  <ref target="https://www.unicef.org/egypt/mona-zaki">lets try a link</ref>  </bibl>
+            </person>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>

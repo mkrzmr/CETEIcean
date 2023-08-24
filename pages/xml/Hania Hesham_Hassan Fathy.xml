@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="template.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- In the above line, change the xml:id to the id of your file: yourinitials.YYYYMM.001 
+        (the 001 can be changed to 002, etc if we are encoding more than one piece from a particular month) -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TAPAS Template for Personographies</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Course of DH6117</publisher>
+            <availability>
+               <ab> Freely available for download and redistribution for educational, non-commercial
+                  use. </ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Born digital: no previous source exists. This document was composed using the following resource as a guide:-->
+            <bibl>
+               <title level="a">Hassan Fathy</title>. 
+               <author>Hania Hesham</author>, 
+               <title>Course DH6117, UCC</title>.
+               <publisher>UCC</publisher>
+               <date>2023</date>. </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <!-- repeat '<person></person>' container for each new entry -->
+            <person xml:id="pers_jane_doe">
+               <persName>Hassan Fathy</persName>
+               <figure>
+                  <graphic url="https://api.architectuul.org/media/5d63e966-2b1c-400e-b542-71c86d7b5e1b/1312x.jpg"/>
+                  <head>Hassan Fathy</head>
+                  <figDesc>A photo of Hassan Fathy</figDesc>
+               </figure>
+               <figure>
+                  <graphic url="https://www.re-thinkingthefuture.com/wp-content/uploads/2019/12/A425-15-PROJECTS-BY-HASSAN-FATHY-1.-NEW-GOURNA-1024x490.jpg"/>
+                  <head>Hassan Fathy</head>
+                  <figDesc>Architecture by Hassant Fathy</figDesc>
+               </figure>
+               <birth>
+                  <placeName type="Birthyear">March 23, 1900</placeName>
+               </birth>
+               <education>
+                  <orgName type="Organisation">Graduated in 1926 from the King Fuad University (now Cairo University).Hassan Fathy was also recognized with the Aga Khan Chairman's Award for Architecture in 1980</orgName></education>
+               <langKnowledge type="Language">
+                  <langKnown tag="en">Arabic</langKnown>
+               </langKnowledge>
+               <nationality>
+                  <placeName type="Nationality">Egypt</placeName></nationality>
+               <occupation type="Occupation">Subject of a TAPAS Personography template</occupation>
+               <residence type="residence">
+                  <placeName ref="home">Place of Residence </placeName>
+               </residence>
+               <bibl>Here goes some interesting information... <ref target="https://en.wikipedia.org/wiki/Hassan_Fathy">lets try a link</ref>  </bibl>
+            </person>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>

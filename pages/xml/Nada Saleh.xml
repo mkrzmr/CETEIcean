@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="template.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- In the above line, change the xml:id to the id of your file: yourinitials.YYYYMM.001 
+        (the 001 can be changed to 002, etc if we are encoding more than one piece from a particular month) -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TAPAS Template for Personographies</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Course of DH6117</publisher>
+            <availability>
+               <ab> Freely available for download and redistribution for educational, non-commercial
+                  use. </ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Born digital: no previous source exists. This document was composed using the following resource as a guide:-->
+            <bibl>
+               <title level="a">Nasser Junior</title>. 
+               <author>Nada Saleh</author>, 
+               <title>Course DH6117, UCC</title>.
+               <publisher>UCC</publisher>
+               <date>2023</date>. </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <!-- repeat '<person></person>' container for each new entry -->
+            <person xml:id="pers_jane_doe">
+               <persName>Jane Doe</persName>
+               <figure>
+                  <graphic url="https://www.nasserjunior.com/static/media/about-pic.98fc5214210f542a9137.png"/>
+                  <head>Jane Doe</head>
+                  <figDesc>A photo of Jane Doe from spring 2016</figDesc>
+               </figure>
+               <figure>
+                  <graphic url="https://res.cloudinary.com/dognloca3/image/upload/v1624014748/illustrations/332165936_487091720303663_4413110780102315390_n_w8xkxk.jpg"/>
+                  <head>Nasser Junior</head>
+                  <figDesc>Illustration by Nasser Junior</figDesc>
+               </figure>
+               <birth>
+                  <placeName type="Birthyear">1994</placeName>
+               </birth>
+               <education>
+                  <orgName type="Organisation">Faculty of Engineering</orgName></education>
+               <langKnowledge type="Language">
+                  <langKnown tag="en">Arabic</langKnown>
+               </langKnowledge>
+               <nationality>
+                  <placeName type="Nationality">Egyptian</placeName></nationality>
+               <occupation type="Occupation">Illustrator and a Cartoonist</occupation>
+               <residence type="residence">
+                  <placeName ref="home">Alexandria </placeName>
+               </residence>
+               <bibl>Mohammed Nasser AKA Nasser Junior is a Software Engineer and Illustrator who does widely loved web comics in both Arabic and English languages. <ref target="https://www.nasserjunior.com/">Link for his Website</ref>  </bibl>
+            </person>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>
