@@ -643,6 +643,7 @@ tei-persname {
   font-weight: bold !important;
   font-size: 150%;
   text-align: center;
+  text-color: #CA4324;
 }
 tei-personGrp {
   display: block;
