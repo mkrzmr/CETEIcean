@@ -882,7 +882,8 @@ tei-surplus>*:last-child:after {
 tei-tei {
   display: block;
   padding:50px;
-  border: 15px #538152;
+  border: 15px solid #538152;
+  border-radius: 15px;
 }
 tei-table {
   display: block;
@@ -1026,6 +1027,7 @@ body
 .header {
   background-color: #538152;
   padding-block: 1em;
+  border-radius: 15px;
 }
 
 
